@@ -67,20 +67,6 @@ body {
 .hamburger {
     display: none;
 }
-/* .hamburger img {
-    width: 25px;
-    height: 25px; */
-    /* position: absolute; */
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
-/* }
-.hamburger .menu-icon {
-    display: block;
-}
-.hamburger .close-icon {
-    display: none;
-} */
 
 /* Theme Toggle Button */
 .theme-toggle {
@@ -204,10 +190,10 @@ body.dark-theme .footer  {
 }
 /* Hero Section */
 .hero {
-    min-height: 100vh;
+    /* min-height: 90vh; */
     display: flex;
     align-items: center;
-    padding: 0 5%;
+    padding: 10% 5%;
     justify-content: center;
     background: linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%);
     overflow: visible;
@@ -225,7 +211,6 @@ body.dark-theme .footer  {
 .hero p {
     font-size: 1.5rem;
     color: #4b5563;
-    /* margin-bottom: 2rem; */
 }
 .cta-button {
     display: inline-block;
@@ -332,7 +317,7 @@ body.dark-theme .footer  {
 .about-image:hover img {
     transform: scale(1.1); /* Slightly enlarge the image */
     z-index: 10; /* Bring the image to the front */
-    animation: shake 0.5s ease-in-out; /* Add shake animation */
+    animation: shake 0.5s ease-in-out; 
     cursor: pointer;
 }
 
@@ -799,7 +784,7 @@ body.dark-theme .footer  {
     }
     .hero-content {
         padding-right: 0;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
     .hero h1 {
         font-size: 2.5rem; 
