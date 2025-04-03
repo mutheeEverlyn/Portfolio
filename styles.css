@@ -239,7 +239,7 @@ body.dark-theme .footer  {
 .hero-image img {
     height: auto;
     border-radius: 50%; 
-    box-shadow: 0 0 10px rgba(233, 182, 14, 0.5); /* Initial soft glow */
+    box-shadow: 0 0 30px rgba(233, 182, 14, 0.5); /* Initial soft glow */
     object-fit: cover;
     aspect-ratio: 1; /* Maintain square aspect ratio */
     max-width: 500px;
@@ -304,7 +304,7 @@ body.dark-theme .footer  {
 .about-image img {
     height: auto;
     border-radius: 10px; 
-    box-shadow: 0 0 10px rgba(252, 211, 77, 0.5); 
+    box-shadow: 0 0 30px rgba(252, 211, 77, 0.5); 
     object-fit: cover;
     max-width: 400px;
     width: 100%;
@@ -901,13 +901,13 @@ body.dark-theme .footer  {
 /* Glowing Pulse Animation */
 @keyframes glow-pulse {
     0% {
-        box-shadow: 0 0 10px rgba(204, 157, 2, 0.973); 
+        box-shadow: 0 0 30px rgba(204, 157, 2, 0.973); 
     }
     50% {
-        box-shadow: 0 0 20px rgba(235, 200, 86, 0.979); 
+        box-shadow: 0 0 40px rgba(235, 200, 86, 0.979); 
     }
     100% {
-        box-shadow: 0 0 10px rgb(77, 76, 75); 
+        box-shadow: 0 0 30px rgb(77, 76, 75); 
     }
 }
 
