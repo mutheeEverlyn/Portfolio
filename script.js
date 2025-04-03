@@ -101,7 +101,7 @@ contactForm.addEventListener('submit', (e) => {
     })
     .then(() => {
         // Show success message after form submission
-        alert('Thank you for your message! Your details have been submitted.');
+        alert('Thank you for your message.You will get a reply soon.');
 
         // Reset the form
         contactForm.reset();
