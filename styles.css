@@ -194,7 +194,6 @@ body.dark-theme .footer  {
 }
 /* Hero Section */
 .hero {
-    /* min-height: 90vh; */
     display: flex;
     align-items: center;
     padding: 10% 5%;
@@ -745,6 +744,9 @@ body.dark-theme .footer  {
         transition: right 0.3s ease;
         z-index: 1000;
     }
+    body.dark-theme .nav-links {
+        background: rgba(255, 255, 255, 0.897);
+      }
     .nav-links.active {
         right: 0;
     }
