@@ -578,23 +578,28 @@ body.dark-theme .download-btn:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+    overflow: visible;
 }
 
 .project-card {
     background: white;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    will-change: transform;
 }
 .project-card:hover {
-    transform: translateY(-10px) ;
-    cursor: pointer; 
-}
-.project-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+    transform: scale(1.05) translateY(-5px);
+    animation: shake 0.5s ease-in-out; 
+    box-shadow: 0 10px 20px #fcd34d;
+    cursor: pointer;
 }
 .project-card h3 {
     padding: 1rem;
