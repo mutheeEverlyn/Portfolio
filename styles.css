@@ -320,9 +320,9 @@ body.dark-theme .cta-button:hover {
     animation: glow-pulse 3s infinite; /* Add glowing pulse animation */
 }
 .about-image:hover img {
-    transform: scale(1.1); /* Slightly enlarge the image */
+    transform: scale(1.1) rotate(180deg); 
     z-index: 10; /* Bring the image to the front */
-    animation: shake 0.5s ease-in-out; 
+    animation: shakeRotate180 0.5s ease-in-out; 
     cursor: pointer;
 }
 /* Education Section */
@@ -861,10 +861,10 @@ body.dark-theme .see-more-btn:hover {
     }
     @keyframes typing {
         0% {
-            width: 0; /* Start with no text visible */
+            width: 0; 
         }
         100% {
-            width: 100%; /* Reveal the full text */
+            width: 100%; 
         }
     }
 }
@@ -942,6 +942,13 @@ body.dark-theme .see-more-btn:hover {
     100% {
         box-shadow: 0 0 30px rgb(77, 76, 75); 
     }
+}
+@keyframes shakeRotate180 {
+    0% { transform: translateX(-5px) rotate(-180deg); }
+    25% { transform: translateX(5px) rotate(-90deg); }
+    50% { transform: translateX(-5px) rotate(0deg); }
+    75% { transform: translateX(5px) rotate(90deg); }
+    100% { transform: translateX(0px) rotate(180deg); }
 }
 
 
