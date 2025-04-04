@@ -943,6 +943,20 @@ body.dark-theme .see-more-btn:hover {
         box-shadow: 0 0 30px rgb(77, 76, 75); 
     }
 }
+.emoji {
+    font-size: 30px; 
+    display: inline-block; 
+    animation: wave 0.5s infinite;
+}
+
+@keyframes wave {
+    0% { transform: rotate(0deg); } /* Neutral position */
+    25% { transform: rotate(15deg); } /* Tilt right */
+    50% { transform: rotate(0deg); }  /* Neutral position */
+    75% { transform: rotate(-15deg); } /* Tilt left */
+    100% { transform: rotate(0deg); }  /* Back to neutral */
+}
+
 
 
 /* Dark Theme for Hero and About Images */
