@@ -769,24 +769,24 @@ body.dark-theme .footer  {
     }
 
     .hamburger .menu-icon {
-        display: block; /* Show menu icon by default */
+        display: block; 
     }
 
     .hamburger .close-icon {
-        display: none; /* Hide close icon by default */
+        display: none; 
     }
 
     .hamburger.active .menu-icon {
-        display: none; /* Hide menu icon when active */
+        display: none; 
     }
 
     .hamburger.active .close-icon {
-        display: block; /* Show close icon when active */
+        display: block;
     }
     .hero {
         flex-direction: column;
         text-align: center;
-        padding-top: 5rem;
+        padding-top: 0.5rem;
     }
     .hero-content {
         padding-right: 0;
