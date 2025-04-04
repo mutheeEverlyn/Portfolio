@@ -215,6 +215,11 @@ body.dark-theme .footer  {
     font-size: 1.5rem;
     color: #4b5563;
 }
+.emoji {
+    font-size: 30px; 
+    display: inline-block; 
+    animation: wave 0.5s infinite;
+}
 .cta-button {
     display: inline-block;
     padding: 1rem 2rem;
@@ -942,11 +947,6 @@ body.dark-theme .see-more-btn:hover {
     100% {
         box-shadow: 0 0 30px rgb(77, 76, 75); 
     }
-}
-.emoji {
-    font-size: 30px; 
-    display: inline-block; 
-    animation: wave 0.5s infinite;
 }
 
 @keyframes wave {
