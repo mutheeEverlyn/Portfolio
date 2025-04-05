@@ -123,12 +123,12 @@ body.dark-theme .skills {
 /* education Section in Dark Theme */
 body.dark-theme .education {
     background-color: #000000;
-    color: #fcd34d;
+    color: #000000;
 }
 body.dark-theme .education-card{
     background-color: #ffffff;
 }
-body.dark-theme .skills h2 {
+body.dark-theme .skills h2,body.dark-theme .education h2,body.dark-theme .hero h1 {
     color: #fbbf24;
 }
 /* Skill Items in Dark Theme */
