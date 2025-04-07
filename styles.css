@@ -411,30 +411,33 @@ body.dark-theme .download-btn:hover {
     gap: 1.5rem; 
     justify-content: center; 
     margin-top: 1rem;
+    overflow: visible;
 }
 
 .certification-item {
-    max-width: 150px; 
+    max-width: 150px;
+    height: 120px;
     text-align: center;
-    height: 120px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    position: relative;
+    overflow: visible; /* prevent clipping */
+    z-index: 1;
 }
 
 .certification-item img {
     width: 100%;
-    max-width: 150px; 
-    height: 120px; 
-    border-radius: 10px; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
 }
 
-.certification-item img:hover {
-    transform: scale(1.05); 
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+/* Zoom on hover */
+.certification-item:hover img {
+    transform: scale(2.5); /* you can adjust this value */
+    z-index: 10;
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 
 /* Skills Section */
