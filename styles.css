@@ -95,7 +95,7 @@ body.dark-theme {
 
 /* Navbar Dark Theme */
 body.dark-theme .navbar {
-    background:#ffffff;
+    background:#b3aeae;
     color: #000000;
 }
 body.dark-theme .navbar .logo {
@@ -126,7 +126,7 @@ body.dark-theme .education {
     color: #000000;
 }
 body.dark-theme .education-card{
-    background-color: #ffffff;
+    background-color: #b3aeae;
 }
 body.dark-theme .skills h2,body.dark-theme .education h2,body.dark-theme .hero h1 {
     color: #fbbf24;
@@ -134,10 +134,11 @@ body.dark-theme .skills h2,body.dark-theme .education h2,body.dark-theme .hero h
 /* Skill Items in Dark Theme */
 body.dark-theme .skill-item {
     color: #fcd34d;
+    background: #b3aeae;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 body.dark-theme .skill-category{
-    background-color: #ffffff;
+    background-color: #b3aeae;
 }
 body.dark-theme .skill-item:hover {
     background-color: #fbbf24;
@@ -165,7 +166,7 @@ body.dark-theme .interests {
     color: #fcd34d;
 }
 body.dark-theme .interest-card{
-    background-color: #ffffff;
+    background-color: #b3aeae;
 }
 body.dark-theme .interest-card:hover{
     background-color: #fcd34d;
@@ -176,7 +177,7 @@ body.dark-theme .projects {
     color: #fcd34d;
 }
 body.dark-theme .project-card{
-    background-color: #ffffff;
+    background-color: #b3aeae;
 }
 /* Contact Section in Dark Theme */
 body.dark-theme .contact {
@@ -185,11 +186,11 @@ body.dark-theme .contact {
 }
 body.dark-theme .form-group input,
 body.dark-theme .form-group textarea {
-    background-color: #ffffff;
+    background-color: #b3aeae;
 }
 /* Footer in Dark Theme */
 body.dark-theme .footer  {
-    background-color: #ffffff;
+    background-color: #b3aeae;
     color: #000000;
 }
 /* Hero Section */
