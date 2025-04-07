@@ -77,7 +77,6 @@ body {
     color: #fcd34d;
     transition: color 0.3s ease;
 }
-
 .theme-toggle:hover {
     color: #fbbf24;
 }
@@ -86,13 +85,11 @@ body.light-theme {
     background-color: #ffffff;
     color: #000000;
 }
-
 /* Dark Theme */
 body.dark-theme {
     background-color: #000000;
     color: #ffffff;
 }
-
 /* Navbar Dark Theme */
 body.dark-theme .navbar {
     background:#b3aeae;
@@ -144,19 +141,12 @@ body.dark-theme .skill-item:hover {
     background-color: #fbbf24;
     color: #ffffff;
 }
-
-body.dark-theme .nav-links a {
-    color: #000000;
-}
-
 body.dark-theme .nav-links a:hover {
     color: #fbbf24;
 }
-
 body.dark-theme .theme-toggle {
     color: #fcd34d;
 }
-
 body.dark-theme .theme-toggle:hover {
     color: #fbbf24;
 }
@@ -777,9 +767,6 @@ body.dark-theme .see-more-btn:hover {
         transition: right 0.3s ease;
         z-index: 1000;
     }
-    body.dark-theme .nav-links {
-        background: rgba(255, 255, 255, 0.897);
-      }
     .nav-links.active {
         right: 0;
     }
